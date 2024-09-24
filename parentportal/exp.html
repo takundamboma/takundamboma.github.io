@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Us</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        .section {
+            padding: 2rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .content-section {
+            flex: 1;
+            padding: 2rem;
+        }
+        .image-section {
+            flex: 1;
+            padding: 2rem;
+        }
+        .title h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        .content h3 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: #34495e;
+        }
+        .content p {
+            margin-bottom: 1rem;
+        }
+        .button a {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .button a:hover {
+            background-color: #2980b9;
+        }
+        .social {
+            margin-top: 1rem;
+        }
+        .social a {
+            display: inline-block;
+            margin-right: 1rem;
+            color: #3498db;
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
+        .social a:hover {
+            color: #2980b9;
+        }
+        .image-section img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .content-section, .image-section {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="content-section">
+                <div class="title">
+                    <h1>About Us</h1>
+                </div>
+                <div class="content">
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, quasi ipsam fugit earum corrupti optio alias asperiores suscipit</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibusma?</p> 
+                    <div class="button">
+                        <a href="">Go Home</a>
+                    </div>
+                    <div class="social">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="image-section">
+                <img src="https://picsum.photos/600/400?random=1" alt="About Us Image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
